@@ -33,7 +33,7 @@
       <p class="lead text-dark">a weekend retreat with the most important human being in your life</p>
 
       <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
-        <button type="button" class="btn btn-danger btn-lg">Register Now</button>
+        <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#register">Register Now</button>
       </div>
     </div>
   </div>
@@ -102,8 +102,59 @@
     <!-- schedule -->
     <h1 class="display-4 text-center my-5">Schedule</h1>
 
+    <ul class="list-group">
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Friday Night: Dinner</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">17:30 - 19:30</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Friday Night: Activity</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">19:40 - 21:10</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Saturday: Breakfast</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">08:00 - 10:00</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Saturday: Activity</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">10:10 - 12:00</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Saturday: Lunch</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">12:05 - 14:00</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Saturday: Worship Moments</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">16:30 - 17:30</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Saturday: Dinner</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">17:40 - 19:30</span>
+        </div>
+      </li>
+      <li class="list-group-item mb-3">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Saturday: Activity</h5>
+          <span class="badge badge-pill badge-warning p-2 text-dark">19:40 - 21:10</span>
+        </div>
+      </li>
+    </ul>
+
     <!-- call-out buttons -->
-    <button type="button" class="btn btn-outline-warning btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+    <button type="button" class="btn btn-outline-warning btn-lg d-block mx-auto my-5" data-bs-toggle="modal" data-bs-target="#register">Don't Miss Out, Register Now</button>
 
     <hr>
     <div class="row py-4 text-white">
@@ -129,6 +180,25 @@
         </div>
     </footer>
   </div>     <!-- container div ends -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="register" tabindex="-1" aria-labelledby="register form" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Woohoo!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Form Goes Here...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery, Popper.js, Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
