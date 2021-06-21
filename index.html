@@ -10,12 +10,40 @@
 </head>
 <body class="bg-danger text-white">
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand order-1 text-dark href="#">Hosted by <strong class="text-warning"">Q+</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link text-dark" aria-current="page" href="#home">Home</a>
+          <a class="nav-link text-dark" href="#about">About</a>
+          <a class="nav-link text-dark" href="#speakers">Speakers</a>
+          <a class="nav-link text-dark" href="#schedule" tabindex="-1" aria-disabled="true">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron bg-light">
+    <div class="container text-center pt-5 pb-5">
+      <h1 class="display-2 text-warning">Love Your Spouse</h1>
+      <p class="lead text-dark">a weekend retreat with the most important human being in your life</p>
+
+      <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+        <button type="button" class="btn btn-danger btn-lg">Register Now</button>
+      </div>
+    </div>
+  </div>
+
   <div class="container pt-4">
     <!-- about -->
     <div class="row">
       <div class="col-md order-lg-2">
-        <h3 class="mb-4">About Love Your Spouse Retreat</h3>
-        <img class="mb-4 img-fluid rounded" src="img/Queenstown.jpeg" alt="Queenstown landscape">
+        <h3 class="mb-4">Love Your Spouse Retreat</h3> 
+        <img class="mb-4 img-fluid rounded" src="img/Retreat.jpeg" alt="Spring Time in Queenstown">
         <p>The beautiful city of Queenstown, New Zealand will be the host city for Love Your Spouse Weekend Retreat!</p>
         <p>Explore new and exciting ways of expressing love to your spouse. Discover the ultimate purpose of your marriage in the eyes of God, your Creator.</p> 
       </div>
@@ -40,16 +68,51 @@
 
     <!-- speakers -->
     <h1 class="display-4 text-center my-5">Speakers</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img class="card-img-top" src="img/speaker.png" alt="Ezra Sandler">
+          <div class="card-body">
+            <h4 class="card-title text-dark">Ezra Sandler</h4>
+            <p class="card-text text-dark">Ezra is a husband, father of four, pastor, author, counsellor and church planter. He and his wife, Ruth, have been married since 1980. He loves life and God.</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img class="card-img-top" src="img/lady copy.png" alt="Ruth Sandler">
+          <div class="card-body">
+            <h4 class="card-title text-dark">Ruth Sandler</h4>
+            <p class="card-text text-dark">Ruth, along with her husband, Ezra is the cofounder of Love Your Spouse Retreat. She has written and co-written numerous books on topics of marriage and family.</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img class="card-img-top" src="img/couple.png" alt="Hayek Couple">
+          <div class="card-body">
+            <h4 class="card-title text-dark">Salma and Benny</h4>
+            <p class="card-text text-dark">Benny co-presents with wife Salma <em>Romantic Surprises</em> workshop two times in a year in Queenstown. Their style of presentation is clear, informative and filled with humour.</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- speakers section ends -->
+
     <!-- schedule -->
     <h1 class="display-4 text-center my-5">Schedule</h1>
 
+    <!-- call-out buttons -->
+    <button type="button" class="btn btn-outline-warning btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+
     <hr>
     <div class="row py-4 text-white">
-      <div class="col-md col-xl-5">
-        <p><strong>Q+City Church</strong></p>
-        <p>Q+City Church is a vibrant community reaching out to many individuals from all walks of life.</p>
+      <div class="col-md col-xl-6">
+        <p class="lead text-warning"><strong>About Q+</strong></p>
+        <p><strong>Q+</strong> also known as Queenstown city church is a vibrant community reaching out to many individuals from all walks of life.</p>
       </div>
-      <div class="col-md col-xl-5 ml-auto">
+      <div class="col-md col-xl-6 ml-auto">
         <p><strong>We'd love for you to stay in touch</strong></p>
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Email">
@@ -60,6 +123,12 @@
       </div>
     </div>
     <hr>
+
+    <footer>
+        <div class="text-center mb-3">
+          <small>&copy; 2021 Love Your Spouse</small>
+        </div>
+    </footer>
   </div>     <!-- container div ends -->
 
   <!-- jQuery, Popper.js, Bootstrap JS -->
