@@ -10,7 +10,7 @@
 </head>
 <body class="bg-danger text-white">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand order-1 text-dark href="#">Hosted by <strong class="text-warning"">Q+</strong></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,13 @@
     </div>
   </nav>
 
-  <div class="jumbotron bg-light">
+  <div class="jumbotron bg-light mt-4">
     <div class="container text-center pt-5 pb-5">
       <h1 class="display-2 text-warning">Love Your Spouse</h1>
       <p class="lead text-dark">a weekend retreat with the most important human being in your life</p>
 
       <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
-        <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#register">Register Now</button>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
       </div>
     </div>
   </div>
@@ -154,7 +154,7 @@
     </ul>
 
     <!-- call-out buttons -->
-    <button type="button" class="btn btn-outline-warning btn-lg d-block mx-auto my-5" data-bs-toggle="modal" data-bs-target="#register">Don't Miss Out, Register Now</button>
+    <button type="button" class="btn btn-outline-warning btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 
     <hr>
     <div class="row py-4 text-white">
@@ -186,15 +186,11 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Woohoo!</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5 class="modal-title text-dark" id="exampleModalLabel">Woohoo!</h5>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Form Goes Here...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          
         </div>
       </div>
     </div>
